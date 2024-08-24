@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column; 
+}
+
+#caixa {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 20px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: transparent; 
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+}
